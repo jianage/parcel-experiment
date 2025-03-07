@@ -1,0 +1,36 @@
+html {
+    background-color: #00539f;
+}
+
+/*padding-内边距，border-边框，margin-外边距*/
+body {
+    width: 600px;   /*强制页面内容永远保持600像素宽*/
+    margin: 0px auto; /*第一个值影响上下方向，第二个值影响左右方向*/
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px; /*上、右、下、左，即顺时针*/
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F; 
+    text-shadow: 3px 3px 1px black; /*阴影水平偏移量，阴影垂直偏移量，模糊半径，阴影基色*/
+    border: 1px solid black;
+}
+/*图片是行级元素，不具备块级元素的一些功能*/
+img {
+    display: block; /*给予其块级行为，使图像有外边距*/
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#dyz {
+    width: 50px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+/*# sourceMappingURL=/style.251b6741.css.map */
