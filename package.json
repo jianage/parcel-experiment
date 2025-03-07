@@ -2,13 +2,13 @@
   "name": "parcel-experiment",
   "version": "1.0.0",
   "description": "test npm package",
-  "main": "index.js",
+  "main": "src/scripts/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "duanjian",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "parcel-bundler": "^1.12.5"
   }
 }
